@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advisory</title>
+    <link rel="stylesheet" href="Corporate_Webiste.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  </head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Advisor</a>
+                <ul class="navbar-nav ms-auto d-flex flex-row gap-5">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                          Home
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="Corporate_Website.html">Our Thinking</a></li>
+                        </ul>
+                </li>
+                    <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                              About
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="about.html">Our Vision and Mission</a></li>
+                              <li><a class="dropdown-item" href="about.html">Our History</a></li>
+                              <li><a class="dropdown-item" href="about.html">Core Values</a></li>
+                              <li><a class="dropdown-item" href="about.html">Why Choose Us?</a></li>
+                            </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                          Services
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="services.html">Services and Benefits</a></li>
+                          <li><a class="dropdown-item" href="services.html">See all our Partners and their Testimonials</a></li>
+                          <li><a class="dropdown-item" href="services.html">Become our Partner</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                          Careers
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="careers.html">Join our Team</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                          Contact Us
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#ContactInfoForm.html">Contact Info</a></li>
+                          <li><a class="dropdown-item" href="#ContactInfoForm.html">Contact Form</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  <section class="Contact-section m-0 py-4">
+    <div class="container-fluid" style="background-color: black;">
+    <h2 class="section-title"  id="ContactInfoForm">Get in Touch</h2>
+    <div class="row g-5 text-light">
+      <div class="col-md-5">
+        <div class="mb-4">
+          <h5>Office Address</h5>
+          <p>221B Baker Street, Lahore, Pakistan</p>
+        </div>
+        <div class="mb-4">
+          <h5>Email</h5>
+          <p>abc123@advisor.com</p>
+        </div>
+        <div class="mb-4">
+          <h5>Phone</h5>
+          <p>+92 123 4567890</p>
+        </div>
+        <div class="mb-4">
+        <h5 class="section-tile">Follow Us</h5>
+        <a href="#" class="me-3 text-decoration-none text-success">Facebook</a>
+        <a href="#" class="me-3 text-decoration-none text-success">Instagram</a>
+        <a href="#" class="me-3 text-decoration-none text-success">LinkedIn</a>
+      </div>
+    </div>
+    <div class="col-md-7">
+        <form id="contactForm">
+          <div class="mb-3">
+            <input type="text" class="form-control border-success rounded-pill" placeholder="Your Name" required>
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control border-success text-light rounded-pill" placeholder="Your Email" required>
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control border-success text-light rounded-pill" placeholder="Subject">
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control border-success text-light rounded-4" rows="5" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-success rounded-pill px-4">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+<div class="modal fade" id="thankYouModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content rounded-4">
+      <div class="modal-header border-0">
+        <h5 class="modal-title">Thank You!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Your message has been successfully sent. We'll get back to you soon!
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+    <footer class="bg-dark text-white bg-dark py-4">
+        <div class="container-fluid text-center">
+            <p>&copy; 2025 Advisor. All rights reserved. </p>
+        </div>
+    </footer>
+    <script src="contactUs.js"></script>
+    </body>
+    </html>

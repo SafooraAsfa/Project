@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advisory</title>
+    <link rel="stylesheet" href="Corporate_Webiste.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Advisor</a>
+                <ul class="navbar-nav ms-auto d-flex flex-row gap-5">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                          Home
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="Corporate_Website.html">Our Thinking</a></li>
+                        </ul>
+                </li>
+                    <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                              About
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="about.html">Our Vision and Mission</a></li>
+                              <li><a class="dropdown-item" href="about.html">Our History</a></li>
+                              <li><a class="dropdown-item" href="about.html">Core Values</a></li>
+                              <li><a class="dropdown-item" href="about.html">Why Choose Us?</a></li>
+                            </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                          Services
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="services.html">Services and Benefits</a></li>
+                          <li><a class="dropdown-item" href="services.html">See all our Partners</a></li>
+                          <li><a class="dropdown-item" href="services.html">Become our Partner and their Testimonials</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                          Careers
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#JoinOurTeam">Join our Team</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                          Contact Us
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="contactUs.html">Contact Info</a></li>
+                          <li><a class="dropdown-item" href="contactUs.html">Contact Form</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="brief-section d-flex align-items-center pb-2 m-0">
+    <div class="container-fluid my-5">
+      <div class="row">
+        <div class="col-md-6 text-white ps-5">
+          <h5 class="display-6 fw-bold">Join Our Team</h5>
+          <h5>Be a part of a collaborative, innovative, and growing workplace.</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="JoinOurTeam-section m-0 p-0 bg-dark" id="JoinOurTeam">
+    <div class="container-fluid" style="background-color:black">
+  <h2 class="dream-title">Find Your Dream Job</h2>
+  <div class="row g-2 mb-2 p-3 rounded justify-content-center">
+    <div class="col-md-6 mb-2">
+      <input type="text" id="searchInput" class="form-control form-control-md rounded-pill border-success text-light" placeholder="Search job title or city">
+    </div>
+    <div class="col-md-3 mb-2">
+      <select class="form-select border-success rounded-pill" id="categoryFilter">
+        <option value="">All Categories</option>
+        <option value="IT">IT</option>
+        <option value="Marketing">Marketing</option>
+        <option value="Finance">Finance</option>
+        <option value="Audit">Audit</option>
+        <option value="HR">HR</option>
+      </select>
+    </div>
+  </div>
+  <div class="row g-2 mb-3 p-3 justify-content-center">
+    <div class="col-md-6 col-lg-3 mb-2">
+      <select class="form-select rounded-pill border-success" id="regionFilter">
+        <option value="">All Regions</option>
+        <option value="Lahore">Lahore</option>
+        <option value="Karachi">Karachi</option>
+        <option value="Islamabad">Islamabad</option>
+        <option value="Peshawar">Peshawar</option>
+        <option value="Quetta">Quetta</option>
+      </select>
+    </div>
+    <div class="col-md-6 col-lg-3 mb-2">
+      <select class="form-select rounded-pill border-success" id="typeFilter">
+        <option value="">All Types</option>
+        <option value="Permanent">Permanent</option>
+        <option value="Contract">Contract</option>
+        <option value="Internship">Internship</option>
+      </select>
+    </div>
+    <div class="col-md-6 col-lg-3 mb-2">
+      <select class="form-select rounded-pill border-success" id="modeFilter">
+        <option value="">All Work Modes</option>
+        <option value="Remote">Remote</option>
+        <option value="Onsite">Onsite</option>
+        <option value="Hybrid">Hybrid</option>
+      </select>
+    </div>
+  </div>
+  <div class="row g-4 justify-content-center text-dark py-5" id="jobList">
+    <div class="col-md-6 col-lg-4 job-card" 
+         data-category="IT" 
+         data-region="Lahore" 
+         data-type="Permanent" 
+         data-mode="Onsite">
+      <div class="card h-100 shadow-sm rounded-4 border-0 mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Frontend Developer</h5>
+          <p class="text-muted mb-2">Lahore | Permanent | Onsite</p>
+          <p><strong>Requirements:</strong> HTML, CSS, JavaScript, React</p>
+          <p><strong>Benefits:</strong> Health Insurance, Gym, Remote Days</p>
+          <a href="apply.html" class="btn btn-outline-success rounded-pill">Apply Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4 job-card" 
+         data-category="Marketing" 
+         data-region="Quetta" 
+         data-type="Contract" 
+         data-mode="Remote">
+      <div class="card h-100 shadow-sm rounded-4 border-0">
+        <div class="card-body">
+          <h5 class="card-title">Digital Marketing Specialist</h5>
+          <p class="text-muted mb-2">Quetta | Contract | Remote</p>
+          <p><strong>Requirements:</strong> SEO, SEM, Google Analytics</p>
+          <p><strong>Benefits:</strong> Work-from-home, Bonuses</p>
+          <a href="apply.html" class="btn btn-outline-success rounded-pill">Apply Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4 job-card" 
+         data-category="Finance" 
+         data-region="Islamabad" 
+         data-type="Internship" 
+         data-mode="Hybrid">
+      <div class="card h-100 shadow-sm rounded-4 border-0">
+        <div class="card-body">
+          <h5 class="card-title">Finance Intern</h5>
+          <p class="text-muted mb-2">Islamabad | Internship | Hybrid</p>
+          <p><strong>Requirements:</strong> BBA/MBA Finance, Excel</p>
+          <p><strong>Benefits:</strong> Monthly Stipend, Certification</p>
+          <a href="apply.html" class="btn btn-outline-success rounded-pill">Apply Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4 job-card" 
+         data-category="IT" 
+         data-region="Peshawar" 
+         data-type="Contract" 
+         data-mode="Hybrid">
+      <div class="card h-100 shadow-sm rounded-4 border-0">
+        <div class="card-body">
+          <h5 class="card-title">Backend Developer</h5>
+          <p class="text-muted mb-2">Peshawar | Contract | Hybrid</p>
+          <p><strong>Requirements:</strong> PHP, Laravel, MySQL</p>
+          <p><strong>Benefits:</strong> Flexible Hours, Remote Setup</p>
+          <a href="apply.html" class="btn btn-outline-success rounded-pill">Apply Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4 job-card" 
+         data-category="Marketing" 
+         data-region="Karachi" 
+         data-type="Permanent" 
+         data-mode="Onsite">
+      <div class="card h-100 shadow-sm rounded-4 border-0">
+        <div class="card-body">
+          <h5 class="card-title">Content Strategist</h5>
+          <p class="text-muted mb-2">Karachi | Permanent | Onsite</p>
+          <p><strong>Requirements:</strong> Copywriting, Social Media</p>
+          <p><strong>Benefits:</strong> Paid Leaves, Wellness Programs</p>
+          <a href="apply.html" class="btn btn-outline-success rounded-pill">Apply Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4 job-card" 
+         data-category="Finance" 
+         data-region="Karachi" 
+         data-type="Permanent" 
+         data-mode="Remote">
+      <div class="card h-100 shadow-sm rounded-4 border-0">
+        <div class="card-body">
+          <h5 class="card-title">Accounts Manager</h5>
+          <p class="text-muted mb-2">Karachi | Permanent | Remote</p>
+          <p><strong>Requirements:</strong> ACCA/CA, ERP Experience</p>
+          <p><strong>Benefits:</strong> Provident Fund, Annual Bonus</p>
+          <a href="apply.html" class="btn btn-outline-success rounded-pill">Apply Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </section>
+    <footer class="bg-dark text-white bg-dark py-4">
+        <div class="container-fluid text-center">
+            <p>&copy; 2025 Advisor. All rights reserved. </p>
+        </div>
+    </footer>
+    <script src="careers.js"></script>
+    </body>
+    </html>
